@@ -5,3 +5,7 @@ a {
 ul:first-child {
     font-size: large;
 }
+
+ul {
+    font-size: small;
+}
