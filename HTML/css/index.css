@@ -9,3 +9,7 @@ ul:first-child {
 /* ul {
     font-size: small;
 } */
+
+a {
+    font-style: italic;
+}
