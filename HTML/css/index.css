@@ -6,9 +6,9 @@ ul:first-child {
     font-size: large;
 }
 
-/* ul {
+ul {
     font-size: small;
-} */
+}
 
 a {
     font-style: italic;
