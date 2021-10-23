@@ -1,17 +1,48 @@
-a {
-    text-decoration: none;
+* {
+    box-sizing: border-box;
 }
 
-ul:first-child {
-    font-size: large;
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+} 
+
+ul, ol, li {
+    padding-left: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+section nav {
+    text-align: center;
+}
+
+nav #img {
+    height: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+nav #img #menu_icon {
+    width: 25px;
+    height: 25px;
+}
+
+div ul {
+    color: red;
+}
+
+div ul ul {
     color: blue;
 }
 
-ul {
-    font-size: small;
+div li a {
+    color: lawngreen;
 }
-
-a {
-    font-style: italic;
-}
-
