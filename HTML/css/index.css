@@ -4,8 +4,14 @@ a {
 
 ul:first-child {
     font-size: large;
+    color: blue;
 }
 
 ul {
     font-size: small;
 }
+
+a {
+    font-style: italic;
+}
+
