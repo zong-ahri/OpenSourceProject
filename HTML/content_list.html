@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16110083</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/Title.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/content_header.css">
+    <link rel="stylesheet" href="css/content_body.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <a id="atag" href="#"><img id="banner_logo" src="image/Banner.png"></a>
+        </div>
+        <div id="nickname">
+            Nickname님
+        </div>
+    </header>
+
+    <article>
+        <div id="music">
+            <div id="nav">
+                <div id="serch">
+                    <input type="text">
+                    <img id="serching" src="image/Serch.png">
+                </div>
+                <div id="sort">
+                    <span><a href="#"># TOP 100</a></span>
+                    <span><a href="#"># 제목 순</a></span>
+                    <span><a href="#"># 아티스트 순</a></span>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>제목</th>
+                        <th>아티스트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td><a href="#">a</a></td>
+                        <td>a</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td><a href="#">bb</a></td>
+                        <td>bb</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td><a href="#">ccc</a></td>
+                        <td>ccc</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td><a href="#">dddd</a></td>
+                        <td>dddd</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td><a href="#">eeeee</a></td>
+                        <td>eeeee</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td><a href="#">ffffff</a></td>
+                        <td>ffffff</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td><a href="#">ggggggg</a></td>
+                        <td>ggggggg</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td><a href="#">hhhhhhhh</a></td>
+                        <td>hhhhhhhh</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td><a href="#">iiiiiiiii</a></td>
+                        <td>iiiiiiiii</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td><a href="https://www.youtube.com/watch?v=RttajdlAPZs">jjjjjjjjjj</a></td>
+                        <td>jjjjjjjjjj</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+
+    <footer>
+        <div class="list" id="music_interfaceA">
+            <img id="music_line" src="image/MusicLine.png">
+            <img id="music_pointer" src="image/MusicPointer.PNG">
+        </div>
+        <div id="music_interfaceB">
+            <div>
+                <img id="music_like" src="image/MusicLike.PNG">
+            </div>
+            <div id="music_lpr">
+                <a class="run_pause" id="music_left"><img src="image/MusicLeft.PNG"></a>
+                <a class="run_pause" id="music_pause">paused<img src="image/MusicPause.PNG"></a>
+                <a class="run_pause" id="music_play">running<img src="image/MusicPlay.png"></a>
+                <a class="run_pause" id="music_right"><img src="image/MusicRight.PNG"></a>
+            </div>
+            <div>
+                <img id="music_bar" src="image/MusicBar.PNG">
+            </div>
+        </div>
+    </footer>
+    <script src="js/index_footer.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(".run_pause").click(function(){
+            var text = $(this).text();
+            $("#music_pointer").removeClass().addClass(text);
+        });
+        $("#music_play").click();
+    </script>
+</body>
+</html>

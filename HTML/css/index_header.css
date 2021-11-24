@@ -1,0 +1,21 @@
+header #banner {
+    margin-top: 40px;
+    text-align: center;
+}
+
+header #atag {
+    display: inline-block;
+    height: 0;
+}
+
+header #atag #banner_logo {
+    width: 25vw;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+header #atag #banner_logo:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}

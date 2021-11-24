@@ -1,0 +1,241 @@
+.atc_box {
+    width: 500px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+/* index */
+#index {
+    display: block;
+}
+
+#index #index_box{
+    text-align: center;
+    line-height: 650px;
+}
+
+#index #index_box #index_user_login {
+    width: 60px;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#index #index_box #index_user_login:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    cursor: pointer;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}
+
+/* login */
+#login {
+    display: none;
+}
+
+#login #login_box {
+    padding-top: 200px;
+    text-align: center;
+}
+
+#login #login_box #login_id {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#login #login_box #login_id:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#login #login_box #login_id:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#login #login_box #login_pwd {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#login #login_box #login_pwd:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#login #login_box #login_pwd:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#login #login_box #login_user_plus {
+    width: 60px;
+    margin: 60px;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#login #login_box #login_user_plus:hover {
+    transform: scale(1.2); 
+    transition: .2s;
+    cursor: pointer;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}
+
+#login #login_box #user_check {
+    width: 60px;
+    margin: 60px;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#login #login_box #user_check:hover {
+    transform: scale(1.2); 
+    transition: .2s;
+    cursor: pointer;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}
+
+/* plus */
+#plus {
+    display: none;
+}
+
+#plus #plus_box {
+    padding-top: 200px;
+    text-align: center;
+}
+
+#plus #plus_box #plus_id {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#plus #plus_box #plus_id:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#plus #plus_box #plus_id:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#plus #plus_box #plus_pwd {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+}
+
+#plus #plus_box #plus_pwd:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#plus #plus_box #plus_pwd:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#plus #plus_box #plus_repwd {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+}
+
+#plus #plus_box #plus_repwd:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#plus #plus_box #plus_repwd:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#plus #plus_box #plus_nick {
+    width: 400px;
+    height: 35px;
+    line-height: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#plus #plus_box #plus_nick:hover {
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#plus #plus_box #plus_nick:focus {
+    border: 3px solid white;
+    outline: none;
+}
+
+#plus #plus_box #plus_user_login {
+    width: 60px;
+    margin: 60px;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#plus #plus_box #plus_user_login:hover {
+    transform: scale(1.2); 
+    transition: .2s;
+    cursor: pointer;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}
+
+#plus #plus_box #user_plus {
+    width: 60px;
+    margin: 60px;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#plus #plus_box #user_plus:hover {
+    transform: scale(1.2); 
+    transition: .2s;
+    cursor: pointer;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}

@@ -1,7 +1,151 @@
 footer {
-    background-color: rgba(128, 128, 128, 0.048);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
-footer table {
+footer #music_interfaceA {
+    position: relative;
+    text-align: center;
+}
+
+footer #music_interfaceA #music_line {
+    width: 60%;
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+footer #music_interfaceA #music_pointer {
+    position: absolute;
+    width: 1.7vh;
+    left: 10%;
+    bottom: 22px;
+    /* black */
+    filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(323deg) brightness(108%) contrast(104%);
+}
+
+.running {
+    animation: pointer 1000s linear 0s 1 normal forwards;
+    animation-play-state:running;
+}
+
+.paused {
+    animation: pointer 1000s linear 0s 1 normal forwards;
+    animation-play-state:paused;
+}
+
+@keyframes pointer {
+    0% {
+        left: 20%;
+    }
+    100% {
+        left: 79.5%;
+    }
+}
+
+footer #music_interfaceB {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
+    width: 50%;
+    height: 100px;
+}
+
+footer #music_interfaceB #music_like {
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_like:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+}
+
+footer #music_interfaceB #music_like:active {
+    /* red */
+    filter: invert(10%) sepia(87%) saturate(7130%) hue-rotate(3deg) brightness(112%) contrast(114%);
+}
+
+footer #music_interfaceB #music_lpr {
+    display: flex;
+    width: 300px;
+}
+
+footer #music_interfaceB #music_lpr #music_left {
+    margin: auto;
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_lpr #music_left:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    /* black */
+    filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(105%);
+}
+
+footer #music_interfaceB #music_lpr .run_pause {
+    font-size: 0;
+}
+
+footer #music_interfaceB #music_lpr #music_pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_lpr #music_pause:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    /* black */
+    filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(105%);
+}
+
+footer #music_interfaceB #music_lpr #music_play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_lpr #music_play:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    /* black */
+    filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(105%);
+}
+
+footer #music_interfaceB #music_lpr #music_right {
+    margin: auto;
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_lpr #music_right:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    /* black */
+    filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(105%);
+}
+
+footer #music_interfaceB #music_bar {
+    margin: auto;
+    cursor: pointer;
+    /* white */
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(104%) contrast(101%);
+}
+
+footer #music_interfaceB #music_bar:hover {
+    transform: scale(1.2);  
+    transition: .2s;
+    /* black */
+    filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(105%);
 }

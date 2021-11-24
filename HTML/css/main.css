@@ -1,0 +1,27 @@
+* {
+    font-family: "맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    background-image: url('../image/Body.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
